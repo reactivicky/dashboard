@@ -1,0 +1,60 @@
+.SearchFilter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 57px 0 24px;
+}
+
+.SearchInputContainer {
+	display: flex;
+	align-items: center;
+}
+
+.SearchInput,
+.FilterInputContainer select {
+	width: 244px;
+	height: 30px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	padding: 0 10px;
+	margin-right: 10px;
+}
+
+.FilterInputContainer select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	background-image: url('../../assets/arrow_drop_down-24px_1.svg');
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-position-y: 5px;
+	border: 1px solid #dfdfdf;
+	border-radius: 2px;
+	margin-right: 2rem;
+	padding: 1rem;
+	padding-right: 2rem;
+}
+
+.SearchBtn {
+	background-color: white;
+	border: 1px solid #ccc;
+	color: #1d6ae5;
+	font-size: 12px;
+	height: 32px;
+}
+
+.FilterInputContainer {
+	display: flex;
+	align-items: center;
+}
+
+.FilterInputContainer label {
+	color: #363636;
+	font-size: 14px;
+	margin-right: 14px;
+}
+
+.FilterInputContainer select {
+	margin-right: 10px;
+	background-color: white;
+}

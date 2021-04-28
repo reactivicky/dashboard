@@ -1,0 +1,36 @@
+.Pagination {
+	margin-bottom: 82px;
+	display: flex;
+	justify-content: end;
+}
+
+.Pagination button {
+	background-color: white;
+	font-family: AvenirHeavy, sans-serif;
+	font-size: 14px;
+	color: #6e6e6e;
+	border: 1px solid #dddddd;
+	width: 40px;
+	height: 32px;
+}
+
+.Pagination button:first-of-type {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-family: 'Helvetica Neue';
+	font-size: 9px;
+	letter-spacing: -1px;
+}
+
+.Pagination button:last-of-type {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-family: 'Helvetica Neue';
+	font-size: 9px;
+	letter-spacing: -1px;
+}
+
+.Pagination .Active {
+	color: white;
+	background-color: #1d6ae5;
+}

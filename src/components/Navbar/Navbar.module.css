@@ -1,0 +1,73 @@
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+	background-color: #fff;
+	box-shadow: 0px 2px 2px 0px rgba(204, 204, 204, 1);
+}
+
+.LogoContainer {
+	display: flex;
+	width: 30%;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 12px 0; */
+}
+
+.Logo {
+	font-family: AvenirHeavy, sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	padding: 12px 0;
+}
+
+.NavLinks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.NavLink {
+	font-size: 14px;
+	color: #535353;
+	padding: 0 12px;
+	text-align: center;
+}
+
+.Active {
+	color: #1d6ae5;
+	border-bottom: 4px solid #1d6ae5;
+	font-family: AvenirHeavy, sans-serif;
+	font-weight: 900;
+	padding: 16px 12px 13px 12px;
+	box-sizing: border-box;
+}
+
+.SignOutContainer,
+.Welcome {
+	display: flex;
+	align-items: center;
+}
+
+.Welcome {
+	margin-right: 19px;
+	font-size: 13px;
+}
+
+.Welcome span {
+	margin-left: 5px;
+}
+
+.Welcome img {
+	vertical-align: middle;
+}
+
+.SignoutBtn {
+	font-size: 13px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}

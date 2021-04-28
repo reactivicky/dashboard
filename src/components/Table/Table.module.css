@@ -1,0 +1,8 @@
+.Alert {
+	background: url('../../assets/circle.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	font-family: AvenirHeavy, sans-serif;
+	font-size: 12px;
+}
